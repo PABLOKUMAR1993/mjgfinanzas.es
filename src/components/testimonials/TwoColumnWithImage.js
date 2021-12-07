@@ -10,6 +10,13 @@ import { ReactComponent as ArrowRightIcon } from "../../images/arrow-right-2-ico
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-4.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "../../images/svg-decorator-blob-5.svg";
 
+//Fotos
+import Carlos from "../../images/_0004_Carlos.jpg"
+import Nubis from "../../images/_0003_Nubis.jpg"
+import Olga from "../../images/_0002_Olga.jpg"
+import Miriam from "../../images/_0000_Miriam.jpg"
+import Pavlo from "../../images/_0001_Pavlo.jpg"
+
 import "slick-carousel/slick/slick.css";
 
 const Container = tw.div`relative`;
@@ -76,27 +83,48 @@ export default () => {
   const testimonials = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
+        Carlos,
       quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Charlotte Hale",
-      customerTitle: "CEO, Delos Inc.",
+        "Valoro mucho la disponibilidad y el contacto rápido con el banco. Con Miriam siempre tengo contacto directo y permite resolver cualquier duda o incidencia rápidamente. Banco Mediolanum es el único banco que ofrece un servicio personalizado para cada tipo de cliente, dependiendo de sus ingresos y sus objetivos, y la ayuda del family banker es importante.",
+      customerName: "Carlos Jimenez Canet",
+      customerTitle: "International Business Developer | Export Manager | KAM | International sales",
+      url: "https://www.linkedin.com/in/carlos-jimenez-canet-ba635594/"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
+        Nubis,
       quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Adam Cuppy",
-      customerTitle: "Founder, EventsNYC",
+        "Miriam es una profesional dedicada y atenta a sus clientes. Siempre disponible para ayudarte a resolver dudas y sobre todo resolver incidencias. Es importante contar con un consultor que esté dispuesto a atenderte con vocación e interés en tu crecimiento financiero.",
+      customerName: "Nubis Diaz De Armas",
+      customerTitle: "Export Area Manager | International Business Developer | Lawyer",
+      url: "https://www.linkedin.com/in/nubis-diaz-de-armas-a484178b/"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1580852300654-03c803a14e24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4.25&w=512&h=512&q=80",
+        Olga,
+      quote:
+        "Gracias al asesoramiento de Miriam estoy tranquila con respecto a mis finanzas. Con su atención personalizada he logrado entender ciertos aspectos básicos de educación financiera, que nunca nos enseñan en el colegio u universidad. Miriam creó un plan personalizado, tras estudiar mi situación, para conseguir mis metas financieras. Ahora estoy feliz ahorrando y viendo mi dinero trabajar y no perdiendo su valor. Sé que mi yo del futuro estará aún más orgullosa de haber tomado esta decisión. Gracias.",
+      customerName: "Olga Calonge",
+      customerTitle: "Profesor de inglés de educación secundaria en Colegio Bilingüe",
+      url: "https://www.linkedin.com/in/olga-calonge/"
+    },
+    {
+      imageSrc:
+        Miriam,
+      quote:
+        "Nunca me han gustado los temas financieros, pero tampoco me he interesado, hasta que gracias al asesoramiento de Miriam me ayudó a entenderlo, a poder gestionar mis ahorros poco a poco y creando una herramienta en la cual el dinero nunca está parado, si no que te genera beneficios a medio y largo plazo. Gracias por la ayuda, siempre disponible en cualquier momento.",
+      customerName: "Miriam Osa Izquierdo",
+      customerTitle: "Graduada en Magisterio de Educación Infantil con mención en Necesidades educativas y atención a la diversidad",
+      url: "https://www.linkedin.com/in/miriam-osa-izquierdo-5b4924141/"
+    },
+    {
+      imageSrc:
+        Pavlo,
       quote:
         "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Steven Marcetti",
-      customerTitle: "Event Manager, Brite",
+      customerName: "Pavlo Dudnyk Petrenko",
+      customerTitle: "Programador Java & JavaScript | Full Stack Developer | Desarrollador Web Back-end & Front-end | Diseño Gráfico | Fotografía | Videografía",
+      url: "https://www.linkedin.com/in/pavlo-dudnyk/"
     },
   ];
   return (
@@ -114,10 +142,12 @@ export default () => {
             {testimonials.map((testimonial, index) => (
               <Testimonial key={index}>
                 <ImageContainer>
+                  <a href={testimonial.url} target="_blank">
                   <img
                     src={testimonial.imageSrc}
                     alt={testimonial.customerName}
                   />
+                  </a>
                 </ImageContainer>
                 <TextContainer>
                   <QuoteContainer>
@@ -126,7 +156,7 @@ export default () => {
                     <QuotesRight />
                   </QuoteContainer>
                   <CustomerInfo>
-                    <CustomerName>{testimonial.customerName}</CustomerName>
+                    <CustomerName><a href={testimonial.url} target="_blank">{testimonial.customerName}</a></CustomerName>
                     <CustomerTitle>{testimonial.customerTitle}</CustomerTitle>
                   </CustomerInfo>
                 </TextContainer>
