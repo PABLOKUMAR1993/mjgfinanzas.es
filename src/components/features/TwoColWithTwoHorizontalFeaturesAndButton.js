@@ -1,13 +1,15 @@
 import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
-import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import TeamIllustrationSrc from "images/team-illustration-2.svg";
 import { ReactComponent as SvgDotPattern } from "images/dot-pattern.svg";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
 import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sign.svg";
+
+//imagenes
+import Ubicacion from "../../images/ubicacion.jpg";
 
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24 items-center`;
@@ -55,27 +57,29 @@ const FeatureHeading = tw.div`ml-3 font-bold text-xl`;
 const FeatureDescription = tw.div`mt-4 text-center md:text-left text-gray-600 leading-relaxed`;
 
 const PrimaryButton = styled(PrimaryButtonBase)(props => [
-  tw`mt-12 text-sm inline-block mx-auto md:mx-0`,
+  tw`mt-12 text-sm inline-block mx-auto md:mx-2`,
   props.buttonRounded && tw`rounded-full`
 ]);
 
 export default ({
-  subheading = "Our Expertise",
+  subheading = "Ubicaciones",
   heading = (
     <>
-      Designed & Developed by <span tw="text-primary-500">Professionals.</span>
+      ¿Dónde puedes <span tw="text-primary-500">encontrarme</span>?
     </>
   ),
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  primaryButtonText = "Learn More",
-  primaryButtonUrl = "https://timerse.com",
-  imageSrc = TeamIllustrationSrc,
+  primaryButtonText = "Ubicación Mota del Cuervo",
+  secondaryButtonText = "Ubicación El Pedernoso",
+  primaryButtonUrl = "https://goo.gl/maps/7fAtLm8XN6YSwUrp6",
+  secondaryButtonUrl = "https://goo.gl/maps/N77hFHp8HqpX8ynw8",
+  imageSrc = Ubicacion,
   buttonRounded = true,
   imageRounded = true,
   imageBorder = false,
   imageShadow = false,
   showDecoratorBlob = false,
-  textOnLeft = true,
+  textOnLeft = false,
   features = null,
   iconRoundedFull = true,
   iconFilled = true,
@@ -90,15 +94,15 @@ export default ({
   const defaultFeatures = [
     {
       Icon: BriefcaseIcon,
-      title: "Professionalism",
-      description: "We have the best professional marketing people across the globe just to work with you.",
-      iconContainerCss: tw`bg-teal-300 text-teal-800`
+      title: "Mota del Cuervo",
+      description: "Mi oficina de Mota del Cuervo está en el Vivero de Empresas que se encuentra en el Polígono Industrial La Serna.",
+      iconContainerCss: tw`bg-blue-300 text-blue-700`
     },
     {
-      Icon: MoneyIcon,
-      title: "Affordable",
-      description: "We promise to offer you the best rate we can - at par with the industry standard.",
-      iconContainerCss: tw`bg-red-300 text-red-800`
+      Icon: BriefcaseIcon,
+      title: "El Pedernoso",
+      description: "Mi oficina de El Pedernoso está en el Vivero de Empresas que se encuentra en el Polígono Industrial.",
+      iconContainerCss: tw`bg-blue-300 text-blue-700`
     }
   ];
 
@@ -133,9 +137,12 @@ export default ({
                 </Feature>
               ))}
             </Features>
-
-            <PrimaryButton buttonRounded={buttonRounded} as="a" href={primaryButtonUrl}>
+          
+            <PrimaryButton buttonRounded={buttonRounded} as="a" href={primaryButtonUrl} target="_blank">
               {primaryButtonText}
+            </PrimaryButton>
+            <PrimaryButton buttonRounded={buttonRounded} as="a" href={secondaryButtonUrl} target="_blank">
+              {secondaryButtonText}
             </PrimaryButton>
           </TextContent>
         </TextColumn>

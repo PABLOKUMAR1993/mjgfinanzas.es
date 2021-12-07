@@ -82,6 +82,7 @@ import MainFeature4 from "components/features/TwoColSingleFeatureWithStats4.js";
 import Services2 from "components/features/VerticalWithAlternateImageAndText2.js";
 //Contacto
 import Form from "components/forms/TwoColContactUsWithIllustrationFullForm.js";
+import MainFeatureContact from "components/features/TwoColWithTwoHorizontalFeaturesAndButton.js";
 
 //React
 import { BrowserRouter, Route } from "react-router-dom";
@@ -114,6 +115,7 @@ export default function App() {
         </Route>
         <Route exact path="/Contacto">
           <Form />
+          <MainFeatureContact />
         </Route>
         <Footer />
       </AnimationRevealPage>
