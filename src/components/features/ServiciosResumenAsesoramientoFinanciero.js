@@ -118,10 +118,10 @@ export default ({
           <TextContent>
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
-          </TextContent>
           <PrimaryButton as="a" href={primaryButtonUrl}>
             {primaryButtonText}
           </PrimaryButton>
+          </TextContent>
         </TextColumn>
       </TwoColumn>
     </Container>

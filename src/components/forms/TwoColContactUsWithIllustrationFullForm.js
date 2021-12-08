@@ -89,10 +89,9 @@ const Form = () => {
         <TextColumn textOnLeft={true}>
           <TextContent>
             <Subheading>Formulario de Contacto</Subheading>
-            <Heading>Hablamos?</Heading>
+            <Heading>¿ Hablamos ?</Heading>
             <Description>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Para cualquier consulta, duda, información, contacto...
             </Description>
             <FormContact onSubmit={handleSubmit}>
               <Input

@@ -47,9 +47,24 @@ export default ({
       Permiteme que me presente, soy <span tw="text-blue-700">Miriam.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = (
+    <>
+      <p>
+        Desde que entré en la Universidad de Albacete en 2011, para cursar el 
+        <b> Grado de Administración y Dirección de Empresas</b>, tenía muy claro que en
+        algún momento de mi vida, <b><i>emprendería</i></b>.
+      </p>
+      <br />
+      <p>
+        Analicé las circunstancias de 2014 y decidí apostar por una formación
+        más focalizada. Elegí <b>Master en Comercio Internacional y sus Técnicas</b>.
+        Con esta formación entré de forma seria en el mercado laboral en el que
+        he estado hasta hoy en día.
+      </p>
+    </>
+  ),
   primaryButtonText = "Leer historia completa",
-  primaryButtonUrl = "#",
+  primaryButtonUrl = "/Conoceme",
   imageSrc = FotoMiram,
   buttonRounded = true,
   imageRounded = true,
@@ -58,7 +73,7 @@ export default ({
   imageCss = null,
   imageDecoratorBlob = false,
   imageDecoratorBlobCss = null,
-  textOnLeft = false
+  textOnLeft = false,
 }) => {
   // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
 
@@ -66,7 +81,13 @@ export default ({
     <Container>
       <TwoColumn>
         <ImageColumn>
-          <Image css={imageCss} src={imageSrc} imageBorder={imageBorder} imageShadow={imageShadow} imageRounded={imageRounded}/>
+          <Image
+            css={imageCss}
+            src={imageSrc}
+            imageBorder={imageBorder}
+            imageShadow={imageShadow}
+            imageRounded={imageRounded}
+          />
           {imageDecoratorBlob && <DecoratorBlob css={imageDecoratorBlobCss} />}
         </ImageColumn>
         <TextColumn textOnLeft={textOnLeft}>
@@ -74,7 +95,11 @@ export default ({
             <Subheading>{subheading}</Subheading>
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
-            <PrimaryButton buttonRounded={buttonRounded} as="a" href={primaryButtonUrl}>
+            <PrimaryButton
+              buttonRounded={buttonRounded}
+              as="a"
+              href={primaryButtonUrl}
+            >
               {primaryButtonText}
             </PrimaryButton>
           </TextContent>

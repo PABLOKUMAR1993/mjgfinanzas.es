@@ -60,75 +60,96 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
 
 export default ({
   cards = null,
-  heading = "Mi experiencia...",
+  heading = "¿Crear un patrimonio? SI.",
   subheading = "",
   description = (
     <>
       <p>
-        Mi experiencia en el asesoramiento financiero, mi profesionalidad y una
-        forma de trabajar personalizada esta disponible para TI.
-      </p>
-      <br />
-      <h1>
-        <b>
-          Lo importante eres tú, escuchar tus necesidades y objetivos
-          financieros. Quiero darte la estrategia que necesitas. Siempre,
-          durante todo el ciclo vital y financiero.
-        </b>
-      </h1>
-      <br />
-      <p>
-        Para que inviertas es importante que cuentes con un asesor financiero y
-        profesional que gestione tu patrimonio de forma objetiva, segura,
-        rentable y sin conflicto de interés.
+        Y significa: ahorrar para tu futuro y es una necesidad esencial si
+        quieres un futuro de calidad.
       </p>
       <br />
       <p>
-        <b>
-          No todos los productos financieros son adecuados para todos los
-          ahorradores, ni para cualquier momento del mercado.
-        </b>
+        <b>NO TODO ES AHORRAR.</b>
       </p>
       <br />
       <p>
-        Existen con más o menos riesgo, con mayor o menor liquidez, corto, medio
-        o largo plazo, en euros o en otras monedas, etc.
+        Hay que ahorrar planificando, pensando tanto en las necesidades a corto,
+        como a medio y a largo plazo.
       </p>
       <br />
       <p>
-        Hay que ser experto para elegir el producto, la cartera adecuada para tu
-        perfil y el momento de mercado. Además de tener estrategias innovadoras
-        y sencillas para minimizar los riesgos y maximizar las oportunidades.
+        Crear un patrimonio requiere tiempo, y el objetivo final del mismo es
+        dar cobertura a necesidades a medio y sobretodo largo plazo.
       </p>
       <br />
       <p>
-        <b>
-          Importante: facilitarte tu vida y tu salud financiera, y para ello te
-          ofrezco consultoría financiera online, continua.
-        </b>
+        <b>La creación de un patrimonio te dará tranquilidad en el futuro.</b>
       </p>
       <br />
       <p>
-        Mi consultoría financiera se basa en conocer a la perfección tu salud
-        financiera y patrimonial y darte una herramienta muy potente que te
-        ayudará, hoy y siempre. El estudio y análisis me permite presentarte una
-        propuesta de inversión que se adecúe a tus circunstancias y necesidades,
-        el seguimiento de la misma es continuo y eso hace que, cuando sea
-        necesario, te proponga actualizaciones o cambios para que siempre tengas
-        la combinación de productos óptima en cualquier situación de mercado.
+        Toda persona capaz de generar ahorro (por pequeño que sea) debe
+        invertir, ya que cuanto antes se empieza a ahorrar, más inversión se
+        acumula y antes se puede contar con un patrimonio.
       </p>
       <br />
       <p>
-        Tu peligro continuo es: la inflación, los impuestos y el conflicto de
-        interés.
+        <b>El mejor aliado es el tiempo.</b>
+      </p>
+      <br />
+      <p>
+        SOLO ES NECESARIO tener clara la idea de que en unos años, con
+        constancia en el ahorro y una inversión correcta del mismo, tendremos
+        acumulado un capital y unos intereses que nos permitirán disfrutar de
+        tranquilidad.
       </p>
       <br />
       <p>
         <b>
-          Un buen asesoramiento financiero debe buscar siempre la mejor
-          combinación de productos o instrumentos, teniendo en cuenta su posible
-          rentabilidad, su fiscalidad y los cambios que se puedan producir.
+          Cada cliente, cada familia, es diferente en sus ingresos y gastos y en
+          su capacidad de ahorro periódico.
         </b>
+      </p>
+      <br />
+      <p>
+        Realizo un trabajo conjunto con el cliente para determinar la cantidad
+        que puede ahorrar, y con qué periodicidad (mensual, trimestral…) y, a
+        partir de aquí, llevo a cabo un estudio del perfil inversor del cliente,
+        del tiempo y el capital que desea conseguir.
+      </p>
+      <br />
+      <p>
+        <b>
+          Para la creación de patrimonio se deben utilizar productos financieros
+          que:
+        </b>
+      </p>
+      <br />
+      <ol>
+        <li>· Diversifiquen en el horizonte temporal.</li>
+        <li>· En el tipo de título.</li>
+        <li>· En el ámbito sectorial y geográfico.</li>
+        <li>
+          · Por supuesto en mercados con diferente potencial de crecimiento.
+        </li>
+      </ol>
+      <br />
+      <p>
+        <b>
+          Trabajo con diferentes estrategias para que las inversiones realizadas
+          sean siempre líquidas.
+        </b>
+      </p>
+      <br />
+      <p>
+        Con la tranquilidad de poder disponer de su inversión en el momento en
+        que lo necesite. Mi constante es que el cliente comparta las bondades de
+        invertir periódicamente y con constancia. Mensualmente es la mejor
+        manera, ya que aprovecharemos aleatoriamente todas las oportunidades de
+        los mercados. En otros casos la periodicidad será trimestral.Y siempre
+        trabajo el dejar remanentes sin invertir, para en los momentos en que
+        los mercados están bajos poder invertir aprovechando de forma consciente
+        un mejor precio.
       </p>
     </>
   ),

@@ -60,74 +60,80 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
 
 export default ({
   cards = null,
-  heading = "Mi experiencia...",
+  heading = "La planificación financiera...",
   subheading = "",
   description = (
     <>
       <p>
-        Mi experiencia en el asesoramiento financiero, mi profesionalidad y una
-        forma de trabajar personalizada esta disponible para TI.
-      </p>
-      <br />
-      <h1>
-        <b>
-          Lo importante eres tú, escuchar tus necesidades y objetivos
-          financieros. Quiero darte la estrategia que necesitas. Siempre,
-          durante todo el ciclo vital y financiero.
-        </b>
-      </h1>
-      <br />
-      <p>
-        Para que inviertas es importante que cuentes con un asesor financiero y
-        profesional que gestione tu patrimonio de forma objetiva, segura,
-        rentable y sin conflicto de interés.
+        ...es un proceso que me permite conocer tu situación financiera para
+        determinar tus propósitos y objetivos, y desarrollar las estrategias
+        correctas que nos llevarán al logro de tus metas
       </p>
       <br />
       <p>
         <b>
-          No todos los productos financieros son adecuados para todos los
-          ahorradores, ni para cualquier momento del mercado.
+          Iniciar un proceso de planificación financiera empieza con la toma de
+          conciencia de que tienes unas necesidades y objetivos en la vida que
+          quieres cubrir, y para los que requieres capital.
         </b>
       </p>
       <br />
       <p>
-        Existen con más o menos riesgo, con mayor o menor liquidez, corto, medio
-        o largo plazo, en euros o en otras monedas, etc.
+        <b>PONEMOS FOCON EN TU:</b>
+      </p>
+      <br />
+      <ol>
+        <li>· manejo de efectivo y presupuestos.</li>
+        <li>· planes de salud.</li>
+        <li>· administración de riesgos y seguros.</li>
+        <li>· impuestos.</li>
+        <li>· inversiones.</li>
+        <li>· planificación para la jubilación.</li>
+        <li>· planificación testamentaria.</li>
+      </ol>
+      <br />
+      <p>
+        El proceso de planificación financiera personal es un proceso integral.
+        Trabajo en todas las áreas y siempre mantengo la visión 360 del
+        conjunto.
       </p>
       <br />
       <p>
-        Hay que ser experto para elegir el producto, la cartera adecuada para tu
-        perfil y el momento de mercado. Además de tener estrategias innovadoras
-        y sencillas para minimizar los riesgos y maximizar las oportunidades.
+        <b>PARA ALCANZAR EL ÉXITO ES CLAVE:</b>
+      </p>
+      <p>
+        Conocimiento y decisiones inteligentes a lo largo del proceso de
+        planificación financiera.
+      </p>
+      <p>
+        PODEMOS: incrementar las oportunidades de lograr tus objetivos trazados.
+      </p>
+      <p>
+        La planificación financiera requiere establecer en primer lugar tus
+        valores, metas y objetivos para tu vida/salud financiera personal.
+      </p>
+      <br />
+      <p>Adapto cada plan de acción a la consecución de tus objetivos.</p>
+      <br />
+      <p>
+        <b>¿CONOCES LA IMPORTANCIA DE UN PRESUPUESTO?</b>
+      </p>
+      <p>
+        <b>ES INCREÍBLE TANTO QUE TÚ DEBES TENER TU PRESUPUESTO PERSONAL</b>
+      </p>
+      <br />
+      <p>Este te ayuda a:</p>
+      <p>
+        conseguir el ahorro, inversión, liquidez y solvencia, con los ingresos,
+        los gastos y los planes de acción propuestos teniendo como finalidad
+        conseguir los objetivos financieros deseados.
       </p>
       <br />
       <p>
         <b>
-          Importante: facilitarte tu vida y tu salud financiera, y para ello te
-          ofrezco consultoría financiera online, continua.
-        </b>
-      </p>
-      <br />
-      <p>
-        Mi consultoría financiera se basa en conocer a la perfección tu salud
-        financiera y patrimonial y darte una herramienta muy potente que te
-        ayudará, hoy y siempre. El estudio y análisis me permite presentarte una
-        propuesta de inversión que se adecúe a tus circunstancias y necesidades,
-        el seguimiento de la misma es continuo y eso hace que, cuando sea
-        necesario, te proponga actualizaciones o cambios para que siempre tengas
-        la combinación de productos óptima en cualquier situación de mercado.
-      </p>
-      <br />
-      <p>
-        Tu peligro continuo es: la inflación, los impuestos y el conflicto de
-        interés.
-      </p>
-      <br />
-      <p>
-        <b>
-          Un buen asesoramiento financiero debe buscar siempre la mejor
-          combinación de productos o instrumentos, teniendo en cuenta su posible
-          rentabilidad, su fiscalidad y los cambios que se puedan producir.
+          Para realizar un plan de acción, se debe elaborar una lista de todas
+          las cosas que deseas alcanzar financieramente, organizándolas según tu
+          prioridad.
         </b>
       </p>
     </>

@@ -46,43 +46,51 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 
 export default ({
   subheading = "Mis Servicios",
-  heading = "¿Que puedo hacer por tí?",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  heading = "¿En que puedo Ayudarte?",
+  description = (
+    <>
+      <p>
+        Desempeño mi profesión acorde a mis <b>valores, honestidad, transparencia y
+        compromiso</b>. Velo por los intereses de mi clientes a través de mi
+        conocimiento y asesoramiento.
+      </p>
+    </>
+  ),
   faqs = [
     {
       question: "Asesoramiento Financiero",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Mi experiencia en el asesoramiento financiero, mi profesionalidad y una forma de trabajar personalizada esta disponible para TI. Lo importante eres tú, escuchar tus necesidades y objetivos financieros. Quiero darte la estrategia que necesitas. Siempre, durante todo el ciclo vital y financiero. Para que inviertas es importante que cuentes con un asesor financiero y profesional que gestione tu patrimonio de forma objetiva, segura, rentable y sin conflicto de interés.",
       primaryButtonText: "Leer más",
-      primaryButtonUrl: "/Servicios",
-    },
-    {
-      question: "Planificación Financiera",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      primaryButtonText: "Leer más",
-      primaryButtonUrl: "/Servicios",
+      primaryButtonUrl: "/AsesoramientoFinanciero",
     },
     {
       question: "Creación de Patrimonio",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Mi experiencia en el asesoramiento financiero, mi profesionalidad y una forma de trabajar personalizada esta disponible para TI. Lo importante eres tú, escuchar tus necesidades y objetivos financieros. Quiero darte la estrategia que necesitas. Siempre, durante todo el ciclo vital y financiero. Para que inviertas es importante que cuentes con un asesor financiero y profesional que gestione tu patrimonio de forma objetiva, segura, rentable y sin conflicto de interés.",
       primaryButtonText: "Leer más",
-      primaryButtonUrl: "/Servicios",
+      primaryButtonUrl: "/CreacionPatrimonio",
+    },
+    {
+      question: "Planificación Financiera",
+      answer:
+        "La planificación financiera es un proceso que me permite conocer tu situación financiera para determinar tus propósitos y objetivos, y desarrollar las estrategias correctas que nos llevarán al logro de tus metas. Iniciar un proceso de planificación financiera empieza con la toma de conciencia de que tienes unas necesidades y objetivos en la vida que quieres cubrir, y para los que requieres capital.",
+      primaryButtonText: "Leer más",
+      primaryButtonUrl: "/PlanificacionFinanciera",
+    },
+    {
+      question: "Gestión Patrimonial",
+      answer:
+        "Tener un gran patrimonio a veces nos puede producir dolor de cabeza. Estoy especializada en la gestión patrimonial de personas físicas. Realizo un servicio integral, desde la recopilación de información hasta el seguimiento periódico de las inversiones. Todo el proceso es fruto de una entrevista personal contigo donde estableceremos tus objetivos vitales, del análisis y estudio económico-financiero, fiscal y legal de tu situación actual que tendrá como resultado una planificación financiera a tu medida.",
+      primaryButtonText: "Leer más",
+      primaryButtonUrl: "/GestionPatrimonial",
     },
     {
       question: "Jubilación",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Te pido un favor que puede solucionar tu futuro. Toma consciencia de estas preguntas y responde de forma realista y seria: · ¿Crees que vas a tener una prestación de jubilación adecuada al nivel de vida? · ¿Sabes cuánto va a ser la cuantía mensual? · Si tienes imprevistos, gastos adicionales, contratar una persona para ayuda a domicilio. ¿Tendrás suficiente dinero? · Y si no tienes un patrimonio disponible para añadir a tu prestación ¿qué harías? · Si quieres llegar a tu jubilación de lujo, con la calidad que te mereces, trabaja hoy para ello. Muy poco a poco.",
       primaryButtonText: "Leer más",
-      primaryButtonUrl: "/Servicios",
-    },
-    {
-      question: "Educación Financiera",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      primaryButtonText: "Leer más",
-      primaryButtonUrl: "/Servicios",
+      primaryButtonUrl: "/Jubilacion",
     },
   ],
 }) => {
@@ -140,18 +148,18 @@ export default ({
                   transition={{ duration: 0.3, ease: [0.04, 0.62, 0.23, 0.98] }}
                 >
                   {faq.answer}
-                  <Actions>
+                  {/* <Actions>
                     <PrimaryButton as="a" href={faq.primaryButtonUrl}>
                       {faq.primaryButtonText}
                     </PrimaryButton>
-                  </Actions>
+                  </Actions> */}
                 </Answer>
               </FAQ>
             ))}
           </FAQSContainer>
           <Actions>
             <PrimaryButton as="a" href="/Servicios">
-              Ver Todos
+              Ver Información Completa
             </PrimaryButton>
           </Actions>
         </Column>

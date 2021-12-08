@@ -60,75 +60,104 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
 
 export default ({
   cards = null,
-  heading = "Mi experiencia...",
+  heading = "Te pido un favor que puede solucionar tu futuro.",
   subheading = "",
   description = (
     <>
-      <p>
-        Mi experiencia en el asesoramiento financiero, mi profesionalidad y una
-        forma de trabajar personalizada esta disponible para TI.
-      </p>
-      <br />
-      <h1>
-        <b>
-          Lo importante eres tú, escuchar tus necesidades y objetivos
-          financieros. Quiero darte la estrategia que necesitas. Siempre,
-          durante todo el ciclo vital y financiero.
-        </b>
-      </h1>
+      <p>Te pido un favor que puede solucionar tu futuro.</p>
       <br />
       <p>
-        Para que inviertas es importante que cuentes con un asesor financiero y
-        profesional que gestione tu patrimonio de forma objetiva, segura,
-        rentable y sin conflicto de interés.
+        Toma consciencia de estas preguntas y responde de forma realista y
+        seria:
       </p>
       <br />
       <p>
-        <b>
-          No todos los productos financieros son adecuados para todos los
-          ahorradores, ni para cualquier momento del mercado.
-        </b>
+        ¿Crees que vas a tener una prestación de jubilación adecuada al nivel de
+        vida?
+      </p>
+      <br />
+      <p>¿Sabes cuánto va a ser la cuantía mensual?</p>
+      <br />
+      <p>
+        Si tienes imprevistos, gastos adicionales, contratar una persona para
+        ayuda a domicilio; ¿tendrás suficiente dinero?
       </p>
       <br />
       <p>
-        Existen con más o menos riesgo, con mayor o menor liquidez, corto, medio
-        o largo plazo, en euros o en otras monedas, etc.
+        Y si no tienes un patrimonio disponible para añadir a tu prestación ¿qué
+        harías?
       </p>
       <br />
       <p>
-        Hay que ser experto para elegir el producto, la cartera adecuada para tu
-        perfil y el momento de mercado. Además de tener estrategias innovadoras
-        y sencillas para minimizar los riesgos y maximizar las oportunidades.
+        Si quieres llegar a tu jubilación de lujo, con la calidad que te
+        mereces, trabaja hoy para ello. Muy poco a poco.
       </p>
       <br />
       <p>
-        <b>
-          Importante: facilitarte tu vida y tu salud financiera, y para ello te
-          ofrezco consultoría financiera online, continua.
-        </b>
-      </p>
-      <br />
-      <p>
-        Mi consultoría financiera se basa en conocer a la perfección tu salud
-        financiera y patrimonial y darte una herramienta muy potente que te
-        ayudará, hoy y siempre. El estudio y análisis me permite presentarte una
-        propuesta de inversión que se adecúe a tus circunstancias y necesidades,
-        el seguimiento de la misma es continuo y eso hace que, cuando sea
-        necesario, te proponga actualizaciones o cambios para que siempre tengas
-        la combinación de productos óptima en cualquier situación de mercado.
-      </p>
-      <br />
-      <p>
-        Tu peligro continuo es: la inflación, los impuestos y el conflicto de
-        interés.
+        Es algo más que elegir un producto y esperar a que genere beneficios
+        mientras acaba tu vida laboral, sino que se trata de un proceso de
+        revisión constante.
       </p>
       <br />
       <p>
         <b>
-          Un buen asesoramiento financiero debe buscar siempre la mejor
-          combinación de productos o instrumentos, teniendo en cuenta su posible
-          rentabilidad, su fiscalidad y los cambios que se puedan producir.
+          El análisis tiene que ser dinámico, y revisado asiduamente, dado que
+          tu situación económica, familiar y personal es variable, y la cartera
+          o inversión destinada a la jubilación pueden quedarse desfasada si no
+          tiene en cuenta esos factores.
         </b>
+      </p>
+      <br />
+      <p>
+        <b>
+          La planificación de la jubilación te asegura la independencia
+          financiera y el estilo de vida que quieres una vez te jubiles.
+        </b>
+        Mi interés es protegerte contra el riesgo de sobrevivir a tus recursos
+        financieros, es decir, que vivas más años que el patrimonio que tengas.
+      </p>
+      <br />
+      <p>
+        El ahorro y la inversión para cubrir la etapa de jubilación debe estar
+        dentro de tu planificación financiera, y mi experiencia me lleva a hacer
+        hincapié en esta previsión ya que sigue siendo la gran asignatura
+        pendiente de la inmensa mayoría de personas en edad laboral.
+      </p>
+      <br />
+      <p>
+        Debes de planificarla con el fin de poder mantener tu nivel de vida, y
+        afrontar los futuros gastos de vejez cuando los ingresos los veas
+        disminuidos de un mes para otro de manera sustancial el día que te
+        jubiles.
+      </p>
+      <br />
+      <p>
+        <b>
+          Preparar tu jubilación es asegurar tu bienestar en la tercera edad.
+        </b>
+      </p>
+      <br />
+      <p>
+        Conociendo tu situación actual y la situación que quieres tener en tu
+        jubilación realizaré la propuesta más adecuada para garantizarte en el
+        futuro una jubilación acorde a cómo quieras vivirla, con las inversiones
+        y productos financieros más adecuados para conseguir tu objetivo.
+      </p>
+      <br />
+      <p>
+        <b>
+          {" "}
+          Un asesoramiento para tu jubilación, independiente y sin conflicto de
+          intereses, en el que tú eres el centro.
+        </b>
+      </p>
+      <br />
+      <p>
+        Las inversiones elegidas se adaptarán plenamente a tu situación
+        personal, laboral y económica en cada momento con absoluta honestidad y
+        flexibilidad, mediante el uso de productos adecuados, y estrategias
+        innovadoras que te garanticen rentabilidad, seguridad y la máxima
+        liquidez posible.
       </p>
     </>
   ),

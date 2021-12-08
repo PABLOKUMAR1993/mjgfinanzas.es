@@ -46,13 +46,13 @@ export default () => {
             <Link href="/Contacto">Contacto</Link>
           </LinksContainer>
           <SocialLinksContainer>
-            <SocialLink href="https://www.facebook.com/miriam.jimenezgarcia.52">
+            <SocialLink href="https://www.facebook.com/miriam.jimenezgarcia.52" target="_blank">
               <FacebookIcon />
             </SocialLink>
-            <SocialLink href="https://www.linkedin.com/in/miriam-jim%C3%A9nez-garc%C3%ADa-/?originalSubdomain=es">
+            <SocialLink href="https://www.linkedin.com/in/miriam-jim%C3%A9nez-garc%C3%ADa-/?originalSubdomain=es" target="_blank">
               <LinkedIcon />
             </SocialLink>
-            <SocialLink href="https://www.instagram.com/mjgfinanzas/">
+            <SocialLink href="https://www.instagram.com/mjgfinanzas/" target="_blank">
               <InstagramIcon />
             </SocialLink>
           </SocialLinksContainer>

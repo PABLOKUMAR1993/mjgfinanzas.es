@@ -121,7 +121,7 @@ export default () => {
       imageSrc:
         Pavlo,
       quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
+        "Lo que más valoro de Miriam es su disponibilidad e involucración, siempre está ahí cuándo la necesites. Además, es una persona que se preocupa de verdad por sus clientes y por darles la mejor solución. Yo he cambiado todos los ahorros y seguros con ella y no sólo he ahorrado si no que tengo mejores coberturas y mis ahorros ahora están empezando a generar intereses.",
       customerName: "Pavlo Dudnyk Petrenko",
       customerTitle: "Programador Java & JavaScript | Full Stack Developer | Desarrollador Web Back-end & Front-end | Diseño Gráfico | Fotografía | Videografía",
       url: "https://www.linkedin.com/in/pavlo-dudnyk/"

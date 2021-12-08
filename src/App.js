@@ -91,10 +91,15 @@ import Hablamos from "components/cta/HablamosServicios";
 
 //Asesoramiento Financiero
 import AsesoramientoFinanciero from "components/features/AsesoramientoFinanciero";
+import CreacionPatrimonio from "components/features/CreacionPatrimonio";
+import PlanificacionFinanciera from "components/features/PlanificacionFinanciera";
+import GestionPatrimonial from "components/features/GestionPatrimonial";
+import Jubilacion from "components/features/Jubilacion";
 
 //Contacto
 import Form from "components/forms/TwoColContactUsWithIllustrationFullForm.js";
 import MainFeatureContact from "components/features/TwoColWithTwoHorizontalFeaturesAndButton.js";
+import Localizacion from "components/cards/Localizacion";
 
 //React
 import { BrowserRouter, Route } from "react-router-dom";
@@ -131,9 +136,25 @@ export default function App() {
           <AsesoramientoFinanciero />
           <Hablamos />
         </Route>
+        <Route exact path="/CreacionPatrimonio">
+          <CreacionPatrimonio />
+          <Hablamos />
+        </Route>
+        <Route exact path="/PlanificacionFinanciera">
+          <PlanificacionFinanciera />
+          <Hablamos />
+        </Route>
+        <Route exact path="/GestionPatrimonial">
+          <GestionPatrimonial />
+          <Hablamos />
+        </Route>
+        <Route exact path="/Jubilacion">
+          <Jubilacion />
+          <Hablamos />
+        </Route>
         <Route exact path="/Contacto">
           <Form />
-          <MainFeatureContact />
+          <Localizacion />
         </Route>
         <Footer />
       </AnimationRevealPage>

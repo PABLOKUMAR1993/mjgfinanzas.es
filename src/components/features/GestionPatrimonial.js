@@ -60,76 +60,110 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
 
 export default ({
   cards = null,
-  heading = "Mi experiencia...",
+  heading = "Tener un gran patrimonio...",
   subheading = "",
   description = (
     <>
       <p>
-        Mi experiencia en el asesoramiento financiero, mi profesionalidad y una
-        forma de trabajar personalizada esta disponible para TI.
-      </p>
-      <br />
-      <h1>
-        <b>
-          Lo importante eres tú, escuchar tus necesidades y objetivos
-          financieros. Quiero darte la estrategia que necesitas. Siempre,
-          durante todo el ciclo vital y financiero.
-        </b>
-      </h1>
-      <br />
-      <p>
-        Para que inviertas es importante que cuentes con un asesor financiero y
-        profesional que gestione tu patrimonio de forma objetiva, segura,
-        rentable y sin conflicto de interés.
+        <b>...a veces nos puede producir dolor de cabeza</b> Estoy especializada
+        en la gestión patrimonial de personas físicas. Realizo un servicio
+        integral, desde la recopilación de información hasta el seguimiento
+        periódico de las inversiones.
       </p>
       <br />
       <p>
-        <b>
-          No todos los productos financieros son adecuados para todos los
-          ahorradores, ni para cualquier momento del mercado.
-        </b>
+        Todo el proceso es fruto de una entrevista personal contigo donde
+        estableceremos tus objetivos vitales, del análisis y estudio
+        económico-financiero, fiscal y legal de tu situación actual que tendrá
+        como resultado una planificación financiera a tu medida.
       </p>
       <br />
       <p>
-        Existen con más o menos riesgo, con mayor o menor liquidez, corto, medio
-        o largo plazo, en euros o en otras monedas, etc.
+        <b>¿Y PERSONAS JURÍDICAS?</b>
       </p>
-      <br />
       <p>
-        Hay que ser experto para elegir el producto, la cartera adecuada para tu
-        perfil y el momento de mercado. Además de tener estrategias innovadoras
-        y sencillas para minimizar los riesgos y maximizar las oportunidades.
+        <b>¡TAMBIÉN!</b>
       </p>
       <br />
+      <p>Si eres:</p>
       <p>
         <b>
-          Importante: facilitarte tu vida y tu salud financiera, y para ello te
-          ofrezco consultoría financiera online, continua.
+          Empresaria/o, Directiva/o, Emprendedor/a, tienes importantes ingresos
+          por tu trabajo o por la venta de tu participación en tu empresa
+        </b>
+        , y quieres tener una mejor organización y planificación financiera
+        acompañado/a de la mano de una profesional de confianza que te ayude
+      </p>
+      <p>
+        <b>¡ESTOY DISPUESTA A TRABAJAR CONTIGO!</b>
+      </p>
+      <br />
+      <p>
+        También para un importante recibido por herencia o por la buena gestión
+        de la empresa familiar,{" "}
+        <b>
+          este servicio te ayudará a gestionar de forma eficiente y activa tu
+          patrimonio.
         </b>
       </p>
       <br />
       <p>
-        Mi consultoría financiera se basa en conocer a la perfección tu salud
-        financiera y patrimonial y darte una herramienta muy potente que te
-        ayudará, hoy y siempre. El estudio y análisis me permite presentarte una
-        propuesta de inversión que se adecúe a tus circunstancias y necesidades,
-        el seguimiento de la misma es continuo y eso hace que, cuando sea
-        necesario, te proponga actualizaciones o cambios para que siempre tengas
-        la combinación de productos óptima en cualquier situación de mercado.
-      </p>
-      <br />
-      <p>
-        Tu peligro continuo es: la inflación, los impuestos y el conflicto de
-        interés.
+        Conozco una plataforma amplia de instrumentos de inversión tanto
+        financieros como inmobiliarios o empresariales, dependiendo de tu perfil
+        como inversor, de tus necesidades y objetivos, de tu capital disponible,
+        así como del horizonte temporal de liquidez.
       </p>
       <br />
       <p>
         <b>
-          Un buen asesoramiento financiero debe buscar siempre la mejor
-          combinación de productos o instrumentos, teniendo en cuenta su posible
-          rentabilidad, su fiscalidad y los cambios que se puedan producir.
+          Colaboro con una asesora fiscal, especialista en tributación de
+          personas físicas, un bufete legal de primer nivel que trabaja desde
+          hace 30 años en ayudar a sus clientes a hacer crecer su patrimonio con
+          una buena planificación legal, hereditaria e inmobiliaria, y con
+          varias consultoras de inversión empresarial.
         </b>
       </p>
+      <br />
+      <p>
+        Mi nivel de exigencia y seguimiento hace que la cartera de clientes
+        gestionados no pueda exceder de un determinado volumen para mantener
+        altos estándares de calidad, atención y resultados.
+      </p>
+      <br />
+      <p>
+        <b>
+          El 80% de mis clientes vienen referenciados por mis clientes actuales.
+        </b>
+      </p>
+      <br />
+      <p>
+        <b>Este servicio incluye:</b>
+      </p>
+      <br />
+      <ol>
+        <li>
+          · Las visitas con el cliente para recabar toda la información
+          necesaria para el análisis de su situación financiera y patrimonial
+          actual.
+        </li>
+        <li>· El estudio económico-financiero, fiscal y legal.</li>
+        <li>
+          · La planificación financiera de acuerdo a los resultados del análisis
+          y del estudio y de los objetivos vitales del cliente.
+        </li>
+        <li>
+          · Las diversas propuestas de inversión respetando los horizontes
+          temporales de los objetivos vitales a cubrir.
+        </li>
+        <li>
+          · La implementación de cada propuesta aceptada y consensuada con el
+          cliente.
+        </li>
+        <li>
+          · La gestión de las inversiones y el seguimiento periódico acordado
+          con el cliente.
+        </li>
+      </ol>
     </>
   ),
 }) => {
