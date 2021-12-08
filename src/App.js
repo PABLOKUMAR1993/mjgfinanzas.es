@@ -74,12 +74,24 @@ import MisOtrosYo from "components/hero/BackgroundAsImage.js";
 import Testimonial from "components/testimonials/TwoColumnWithImage.js";
 import GetStarted from "components/cta/GetStarted.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
+
 //Conoceme
 import MainFeature2 from "components/features/TwoColSingleFeatureWithStats2.js";
 import MainFeature3 from "components/features/TwoColSingleFeatureWithStats3.js";
 import MainFeature4 from "components/features/TwoColSingleFeatureWithStats4.js";
+
 //Servicios
 import Services2 from "components/features/VerticalWithAlternateImageAndText2.js";
+import ResumenAsesoramientoFinanciero from "components/features/ServiciosResumenAsesoramientoFinanciero.js";
+import ResumenCreacionPatrimonio from "components/features/ServiciosResumenCreacionPatrimonio.js";
+import ResumenPlanifiacionFinanciera from "components/features/ServiciosResumenPlanificacionFinanciera.js";
+import ResumenGestionPatrimonial from "components/features/ServiciosResumenGestionPatrimonial.js";
+import ResumenJubilacion from "components/features/ServiciosResumenJubilacion.js";
+import Hablamos from "components/cta/HablamosServicios";
+
+//Asesoramiento Financiero
+import AsesoramientoFinanciero from "components/features/AsesoramientoFinanciero";
+
 //Contacto
 import Form from "components/forms/TwoColContactUsWithIllustrationFullForm.js";
 import MainFeatureContact from "components/features/TwoColWithTwoHorizontalFeaturesAndButton.js";
@@ -108,10 +120,16 @@ export default function App() {
         </Route>
         <Route exact path="/Servicios">
           <Services2 />
+          <ResumenAsesoramientoFinanciero />
+          <ResumenCreacionPatrimonio />
+          <ResumenPlanifiacionFinanciera />
+          <ResumenGestionPatrimonial />
+          <ResumenJubilacion />
+          <Hablamos />
         </Route>
         <Route exact path="/AsesoramientoFinanciero">
-          <MainFeature2 />
-          <MainFeature3 />
+          <AsesoramientoFinanciero />
+          <Hablamos />
         </Route>
         <Route exact path="/Contacto">
           <Form />

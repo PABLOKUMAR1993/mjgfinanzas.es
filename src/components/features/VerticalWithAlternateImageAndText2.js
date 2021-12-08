@@ -11,7 +11,7 @@ const Container = tw.div`relative`;
 const SingleColumn = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
 
 const HeadingInfoContainer = tw.div`flex flex-col items-center`;
-const HeadingDescription = tw.p`mt-4 font-medium text-gray-600 text-center max-w-sm`;
+const HeadingDescription = tw.p`mt-4 font-medium text-gray-600 text-center max-w-xl`;
 const Actions = tw.div`flex flex-col items-center sm:flex-row justify-center lg:justify-start mt-8`;
 const PrimaryButton = tw.button`font-bold px-8 lg:px-10 py-3 rounded bg-primary-500 text-gray-100 hocus:bg-primary-700 focus:shadow-outline focus:outline-none transition duration-300`;
 
@@ -51,9 +51,9 @@ export default () => {
         "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2670&q=80",
       subtitle: "",
       title: "Asesoramiento Financiero",
-      description: "Mi experiencia en el asesoramiento financiero, mi profesionalidad y una forma de trabajar personalizada esta disponible para TI. Lo importante eres tú, escuchar tus necesidades y objetivos financieros. Quiero darte la estrategia que necesitas. Siempre, durante todo el ciclo vital y financiero.",        
+      description: `Mi experiencia en el asesoramiento financiero, mi profesionalidad y una forma de trabajar personalizada esta disponible para TI. Lo importante eres tú, escuchar tus necesidades y objetivos financieros. Quiero darte la estrategia que necesitas. Siempre, durante todo el ciclo vital y financiero. Para que inviertas es importante que cuentes con un asesor financiero y profesional que gestione tu patrimonio de forma objetiva, segura, rentable y sin conflicto de interés.`,        
       primaryButtonText: "Leer Más",
-      primaryButtonUrl: "/AsesoramientoFinanciero",
+      primaryButtonUrl: "/AsesoramientoFinanciero"
     },
     {
       imageSrc:
@@ -108,24 +108,6 @@ export default () => {
             través de mi conocimiento y asesoramiento.
           </HeadingDescription>
         </HeadingInfoContainer>
-
-        <Content>
-          {cards.map((card, i) => (
-            <Card key={i} reversed={i % 2 === 1}>
-              <Image imageSrc={card.imageSrc} />
-              <Details>
-                <Subtitle>{card.subtitle}</Subtitle>
-                <Title>{card.title}</Title>
-                <Description>{card.description}</Description>
-                <Actions>
-                  <PrimaryButton as="a" href={card.primaryButtonUrl}>
-                    {card.primaryButtonText}
-                  </PrimaryButton>
-                </Actions>
-              </Details>
-            </Card>
-          ))}
-        </Content>
       </SingleColumn>
       <SvgDotPattern1 />
       <SvgDotPattern2 />
