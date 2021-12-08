@@ -76,11 +76,13 @@ import GetStarted from "components/cta/GetStarted.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
 
 //Conoceme
+import HeroConoceme from "components/hero/HeroConoceme";
 import MainFeature2 from "components/features/TwoColSingleFeatureWithStats2.js";
 import MainFeature3 from "components/features/TwoColSingleFeatureWithStats3.js";
 import MainFeature4 from "components/features/TwoColSingleFeatureWithStats4.js";
 
 //Servicios
+import HeroServicios from "components/hero/HeroServicios";
 import Services2 from "components/features/VerticalWithAlternateImageAndText2.js";
 import ResumenAsesoramientoFinanciero from "components/features/ServiciosResumenAsesoramientoFinanciero.js";
 import ResumenCreacionPatrimonio from "components/features/ServiciosResumenCreacionPatrimonio.js";
@@ -97,6 +99,7 @@ import GestionPatrimonial from "components/features/GestionPatrimonial";
 import Jubilacion from "components/features/Jubilacion";
 
 //Contacto
+import HeroContacto from "components/hero/HeroContacto";
 import Form from "components/forms/TwoColContactUsWithIllustrationFullForm.js";
 import MainFeatureContact from "components/features/TwoColWithTwoHorizontalFeaturesAndButton.js";
 import Localizacion from "components/cards/Localizacion";
@@ -109,8 +112,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <AnimationRevealPage>
-        <Hero />
         <Route exact path="/">
+          <Hero />
           <AboutMe />
           <Satisfaccion />
           <Services />
@@ -119,11 +122,13 @@ export default function App() {
           <GetStarted />
         </Route>
         <Route exact path="/Conoceme">
+          <HeroConoceme />
           <MainFeature2 />
           <MainFeature3 />
           <MainFeature4 />
         </Route>
         <Route exact path="/Servicios">
+          <HeroServicios />
           <Services2 />
           <ResumenAsesoramientoFinanciero />
           <ResumenCreacionPatrimonio />
@@ -133,26 +138,32 @@ export default function App() {
           <Hablamos />
         </Route>
         <Route exact path="/AsesoramientoFinanciero">
+          <Hero />
           <AsesoramientoFinanciero />
           <Hablamos />
         </Route>
         <Route exact path="/CreacionPatrimonio">
+          <Hero />
           <CreacionPatrimonio />
           <Hablamos />
         </Route>
         <Route exact path="/PlanificacionFinanciera">
+          <Hero />
           <PlanificacionFinanciera />
           <Hablamos />
         </Route>
         <Route exact path="/GestionPatrimonial">
+          <Hero />
           <GestionPatrimonial />
           <Hablamos />
         </Route>
         <Route exact path="/Jubilacion">
+          <Hero />
           <Jubilacion />
           <Hablamos />
         </Route>
         <Route exact path="/Contacto">
+          <HeroContacto />
           <Form />
           <Localizacion />
         </Route>
