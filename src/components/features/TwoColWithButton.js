@@ -44,7 +44,7 @@ export default ({
   subheading = "Mi Historia",
   heading = (
     <>
-      Permiteme que me presente, soy <span tw="text-blue-700">Miriam.</span>
+      Permíteme que me presente, soy <span tw="text-blue-700">Miriam.</span>
     </>
   ),
   description = (

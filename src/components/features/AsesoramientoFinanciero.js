@@ -60,7 +60,7 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
 
 export default ({
   cards = null,
-  heading = "Mi experiencia...",
+  heading = "Lo importante eres tú, escuchar tus necesidades y objetivos financieros. Quiero darte la estrategia que necesitas.",
   subheading = "",
   description = (
     <>

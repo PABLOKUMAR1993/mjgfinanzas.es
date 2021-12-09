@@ -65,7 +65,7 @@ export default ({ cards = null, heading = "Contacta Conmigo", subheading = "Mét
     },
     { 
       title: "Oficina de El Pedernoso",
-      description: "Vivero de Empresas en el Pol. Ind. (El Pedernoso).",
+      description: "Vivero de Empresas (El Pedernoso).",
       url: "https://www.google.es/maps/place/16638+El+Pedernoso,+Cuenca/@39.4843989,-2.7468097,17z/data=!3m1!4b1!4m5!3m4!1s0xd68685a6c355a7f:0x2f0b4f5a410bd323!8m2!3d39.483918!4d-2.744386?shorturl=1"
     },
     { 
@@ -84,14 +84,19 @@ export default ({ cards = null, heading = "Contacta Conmigo", subheading = "Mét
       url: "https://www.linkedin.com/in/miriam-jim%C3%A9nez-garc%C3%ADa-/"
     },
     { 
+      title: "Instagram",
+      description: "@mjgfinanzas",
+      url: "https://www.instagram.com/mjgfinanzas/?hl=es"
+    },
+    { 
       title: "Facebook",
       description: "@Miriam Jméz García",
       url: "https://www.facebook.com/miriam.jimenezgarcia.52"
     },
     { 
-      title: "Instagram",
+      title: "Página de Facebook",
       description: "@mjgfinanzas",
-      url: "https://www.instagram.com/mjgfinanzas/?hl=es"
+      url: "https://www.facebook.com/mjgfinanzas/"
     },
   ];
 

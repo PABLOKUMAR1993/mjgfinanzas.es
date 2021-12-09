@@ -89,10 +89,10 @@ export default ({
         Madrid en el <b>Master de Marketing y Comunicación Digital</b>. Tras la
         pandemia mundial entré en banca,{" "}
         <b>
-          <i>Banco Santander</i> me dio la oportunidad de ser{" "}
+          <i>Banco Santander</i> me dió la oportunidad de ser{" "}
           <i>directora de oficina</i> en Belmonte, Cuenca
         </b>
-        . Tras esta grata experiencia, formación, y completa exigencia, culmino
+        . Tras esta grata experiencia, formación, y completa exigencia, decido hacer el master de asesoramiento bancario finanzas e inversión por la universidad pública de valencia. Así culmina
         gran conocimiento y me siento preparada para{" "}
         <b>
           <i>cumplir mi sueño</i>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import Contacto from "../../images/Contacto.jpg"
 
 //
 //
@@ -19,7 +20,7 @@ const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-
 const Column = tw.div`w-full max-w-md mx-auto md:max-w-none md:mx-0`;
 const ImageColumn = tw(Column)`md:w-5/12 flex-shrink-0 h-80 md:h-auto`;
 const Image = styled.div((props) => [
-  `background-image: url("${props.imageSrc}");`,
+  `background-image: url("${Contacto}");`,
   tw`rounded bg-contain bg-no-repeat bg-center h-full`,
 ]);
 const TextColumn = styled(Column)((props) => [
