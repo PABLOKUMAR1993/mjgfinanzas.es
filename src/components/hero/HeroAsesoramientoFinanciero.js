@@ -64,9 +64,9 @@ export default () => {
         <StyledHeader links={navLinks} />
         <Content>
           <Heading>
-              ¿ Hablamos ?
+              Asesoramiento Financiero
           </Heading>
-          <PrimaryAction><a href="/">Inicio</a></PrimaryAction>
+          <PrimaryAction><a href="/Servicios">Volver a Servicios</a></PrimaryAction>
         </Content>
       </HeroContainer>
     </Container>

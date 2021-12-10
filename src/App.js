@@ -91,7 +91,12 @@ import ResumenGestionPatrimonial from "components/features/ServiciosResumenGesti
 import ResumenJubilacion from "components/features/ServiciosResumenJubilacion.js";
 import Hablamos from "components/cta/HablamosServicios";
 
-//Asesoramiento Financiero
+//Páginas individuales de Servicios
+import HeroAsesoramientoFinanciero from "components/hero/HeroAsesoramientoFinanciero";
+import HeroCreacionPatrimonio from "components/hero/HeroCreacionPatrimonio";
+import HeroPlanificacionFinanciera from "components/hero/HeroPlanificacionFinanciera";
+import HeroGestionPatrimonial from "components/hero/HeroGestionPatrimonial";
+import HeroJubilacion from "components/hero/HeroJubilacion";
 import AsesoramientoFinanciero from "components/features/AsesoramientoFinanciero";
 import CreacionPatrimonio from "components/features/CreacionPatrimonio";
 import PlanificacionFinanciera from "components/features/PlanificacionFinanciera";
@@ -138,27 +143,27 @@ export default function App() {
           <Hablamos />
         </Route>
         <Route exact path="/AsesoramientoFinanciero">
-          <Hero />
+          <HeroAsesoramientoFinanciero />
           <AsesoramientoFinanciero />
           <Hablamos />
         </Route>
         <Route exact path="/CreacionPatrimonio">
-          <Hero />
+          <HeroCreacionPatrimonio />
           <CreacionPatrimonio />
           <Hablamos />
         </Route>
         <Route exact path="/PlanificacionFinanciera">
-          <Hero />
+          <HeroPlanificacionFinanciera />
           <PlanificacionFinanciera />
           <Hablamos />
         </Route>
         <Route exact path="/GestionPatrimonial">
-          <Hero />
+          <HeroGestionPatrimonial />
           <GestionPatrimonial />
           <Hablamos />
         </Route>
         <Route exact path="/Jubilacion">
-          <Hero />
+          <HeroJubilacion />
           <Jubilacion />
           <Hablamos />
         </Route>

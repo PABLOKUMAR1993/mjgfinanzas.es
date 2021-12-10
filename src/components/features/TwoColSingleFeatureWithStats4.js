@@ -9,8 +9,7 @@ import {
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import StatsIllustrationSrc from "images/stats-illustration.svg";
 import { ReactComponent as SvgDotPattern } from "images/dot-pattern.svg";
-import miriam1 from "../../images/miriam_foto_1.jpg";
-import miriam2 from "../../images/miriam_foto_2.jpg";
+import miriam2 from "../../images/Mi_Historia_2.jpg";
 
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24`;

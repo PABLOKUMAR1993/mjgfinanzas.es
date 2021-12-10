@@ -2,6 +2,7 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
+import Wallpaper from "../../images/wallpaper_home.jpg";
 
 import Header, { NavLink, NavLinks, PrimaryLink as PrimaryLinkBase, LogoLink, NavToggle, DesktopNavLinks } from "../headers/light.js";
 
@@ -18,7 +19,7 @@ const StyledHeader = styled(Header)`
 const PrimaryLink = tw(PrimaryLinkBase)`rounded-full`
 const Container = styled.div`
   ${tw`relative -mx-8 -mt-8 bg-center bg-cover h-screen min-h-144`}
-  background-image: url("https://images.unsplash.com/photo-1522071901873-411886a10004?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80");
+  background-image: url(${Wallpaper});
 `;
 
 const OpacityOverlay = tw.div`z-10 absolute inset-0 bg-black opacity-75`;

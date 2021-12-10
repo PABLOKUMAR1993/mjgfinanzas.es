@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
-import FotoMiram from "images/miriam_foto_2.jpg";
+import miriam1 from "../../images/Mi_Historia.jpg";
 import {ReactComponent as SvgDotPattern } from "images/dot-pattern.svg"
 
 const Container = tw.div`relative`;
@@ -58,14 +58,13 @@ export default ({
       <p>
         Analicé las circunstancias de 2014 y decidí apostar por una formación
         más focalizada. Elegí <b>Master en Comercio Internacional y sus Técnicas</b>.
-        Con esta formación entré de forma seria en el mercado laboral en el que
-        he estado hasta hoy en día.
+        Con esta formación me incorporé al mercado laboral en el que he estado hasta hoy en día.
       </p>
     </>
   ),
   primaryButtonText = "Leer historia completa",
   primaryButtonUrl = "/Conoceme",
-  imageSrc = FotoMiram,
+  imageSrc = miriam1,
   buttonRounded = true,
   imageRounded = true,
   imageBorder = false,
