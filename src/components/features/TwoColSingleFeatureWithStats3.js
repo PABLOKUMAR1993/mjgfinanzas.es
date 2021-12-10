@@ -49,11 +49,7 @@ const DecoratorBlob = styled(SvgDotPattern)((props) => [
 
 export default ({
   subheading = "",
-  heading = (
-    <>
-      Trayectoría Profesional.
-    </>
-  ),
+  heading = <>Trayectoría Profesional.</>,
   description = (
     <>
       <p>
@@ -91,8 +87,12 @@ export default ({
           <i>Banco Santander</i> me dió la oportunidad de ser{" "}
           <i>directora de oficina</i> en Belmonte, Cuenca
         </b>
-        . Tras esta grata experiencia, formación, y completa exigencia, decido hacer el master de asesoramiento bancario finanzas e inversión por la universidad pública de valencia. Así culmina
-        gran conocimiento y me siento preparada para{" "}
+        . Tras esta grata experiencia, formación, y completa exigencia, decido
+        hacer el master de asesoramiento bancario finanzas e inversión por la{" "}
+        <b>
+          <i>Universidad Pública de Valencia</i>
+        </b>
+        . Así culmina gran conocimiento y me siento preparada para{" "}
         <b>
           <i>cumplir mi sueño</i>
         </b>
