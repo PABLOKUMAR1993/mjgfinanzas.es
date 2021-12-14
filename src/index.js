@@ -1,3 +1,4 @@
+/*
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
@@ -9,3 +10,31 @@ ReactDOM.render(
   <App />,
   document.getElementById("root")
 );
+*/
+
+import React from "react";
+import ReactDOM from "react-dom";
+import Preloader from "./components/Preloader/Preloader";
+import Timer from "./components/Countdown/Timer";
+import Optin from "./components/Optin/Optin";
+
+import "./styles.css";
+
+function App() {
+  return (
+    <div className="App">
+      <div className="container">
+        <h1>
+          Estamos terminando
+          <br />
+          la página web
+        </h1>
+        <Optin />
+        <Preloader />
+      </div>
+    </div>
+  );
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);

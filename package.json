@@ -1,7 +1,7 @@
 {
-  "name": "treact",
+  "name": "Miriam Jiménez García || Asesora Financiera",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@owaiswiz/use-in-view": "^1.0.16",
     "@testing-library/jest-dom": "^5.14.1",
@@ -10,6 +10,7 @@
     "emailjs-com": "^3.2.0",
     "feather-icons": "^4.28.0",
     "framer-motion": "^4.1.17",
+    "moment": "^2.29.1",
     "react": "^17.0.2",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^17.0.2",
