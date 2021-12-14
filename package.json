@@ -1,7 +1,7 @@
 {
-  "name": "Miriam Jiménez García || Asesora Financiera",
+  "name": "Miriam Jiménez García",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@owaiswiz/use-in-view": "^1.0.16",
     "@testing-library/jest-dom": "^5.14.1",
