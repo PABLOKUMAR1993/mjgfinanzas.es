@@ -57,8 +57,8 @@ export default () => {
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
-            <p>&copy; Desarrollado por <a href="https://www.linkedin.com/in/pavlo-dudnyk/">Pavlo Dudnyk</a>.</p>
-            <p>Fotografias demo proporcionadas por Unspalsh &amp; componentes de React por Treact.</p>
+            <p>Desarrollado por <a href="https://www.linkedin.com/in/pavlo-dudnyk/">Pavlo Dudnyk</a>.</p>
+            <p>Componentes de React proporcionados por Treact.</p>
           </CopyrightText>
         </Row>
       </Content>

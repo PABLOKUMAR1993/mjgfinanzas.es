@@ -122,7 +122,7 @@ export default function App() {
           <AboutMe />
           <Satisfaccion />
           <Services />
-          <MisOtrosYo />
+          {/*<MisOtrosYo />*/}
           <Testimonial />
           <GetStarted />
         </Route>
