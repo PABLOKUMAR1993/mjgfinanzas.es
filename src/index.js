@@ -2,7 +2,7 @@
 *DESCOMENTAR PARA MOSTAR LA WEB
 */
 
-
+/*
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
@@ -14,6 +14,7 @@ ReactDOM.render(
   <App />,
   document.getElementById("root")
 );
+*/
 
 
 /*
@@ -21,7 +22,7 @@ ReactDOM.render(
 */
 
 
-/*
+
 import React from "react";
 import ReactDOM from "react-dom";
 import Preloader from "./components/Preloader/Preloader";
@@ -48,4 +49,3 @@ function App() {
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
-*/
