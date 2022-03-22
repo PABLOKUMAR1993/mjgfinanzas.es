@@ -2,3 +2,7 @@
 /build
 /wordpress
 README.md
+babel-plugin-macros.config.js
+jsconfig.json
+package-lock.json
+yarn.lock
