@@ -86,7 +86,7 @@ export default () => {
         Carlos,
       quote:
         "Valoro mucho la disponibilidad y el contacto rápido con el banco. Con Miriam siempre tengo contacto directo y permite resolver cualquier duda o incidencia rápidamente. Banco Mediolanum es el único banco que ofrece un servicio personalizado para cada tipo de cliente, dependiendo de sus ingresos y sus objetivos, y la ayuda del family banker es importante.",
-      customerName: "Carlos Jimenez Canet",
+      customerName: "Carlos J.",
       customerTitle: "International Business Developer | Export Manager | KAM | International sales",
       url: "https://www.linkedin.com/in/carlos-jimenez-canet-ba635594/"
     },
@@ -95,7 +95,7 @@ export default () => {
         Nubis,
       quote:
         "Miriam es una profesional dedicada y atenta a sus clientes. Siempre disponible para ayudarte a resolver dudas y sobre todo resolver incidencias. Es importante contar con un consultor que esté dispuesto a atenderte con vocación e interés en tu crecimiento financiero.",
-      customerName: "Nubis Diaz De Armas",
+      customerName: "Nubis D.",
       customerTitle: "Export Area Manager | International Business Developer | Lawyer",
       url: "https://www.linkedin.com/in/nubis-diaz-de-armas-a484178b/"
     },
@@ -104,7 +104,7 @@ export default () => {
         Olga,
       quote:
         "Gracias al asesoramiento de Miriam estoy tranquila con respecto a mis finanzas. Con su atención personalizada he logrado entender ciertos aspectos básicos de educación financiera, que nunca nos enseñan en el colegio u universidad. Miriam creó un plan personalizado, tras estudiar mi situación, para conseguir mis metas financieras. Ahora estoy feliz ahorrando y viendo mi dinero trabajar y no perdiendo su valor. Sé que mi yo del futuro estará aún más orgullosa de haber tomado esta decisión. Gracias.",
-      customerName: "Olga Calonge",
+      customerName: "Olga C.",
       customerTitle: "Profesor de inglés de educación secundaria en Colegio Bilingüe",
       url: "https://www.linkedin.com/in/olga-calonge/"
     },
@@ -113,7 +113,7 @@ export default () => {
         Miriam,
       quote:
         "Nunca me han gustado los temas financieros, pero tampoco me he interesado, hasta que gracias al asesoramiento de Miriam me ayudó a entenderlo, a poder gestionar mis ahorros poco a poco y creando una herramienta en la cual el dinero nunca está parado, si no que te genera beneficios a medio y largo plazo. Gracias por la ayuda, siempre disponible en cualquier momento.",
-      customerName: "Miriam Osa Izquierdo",
+      customerName: "Miriam O.",
       customerTitle: "Graduada en Magisterio de Educación Infantil con mención en Necesidades educativas y atención a la diversidad",
       url: "https://www.linkedin.com/in/miriam-osa-izquierdo-5b4924141/"
     },
@@ -122,8 +122,8 @@ export default () => {
         Pavlo,
       quote:
         "Lo que más valoro de Miriam es su disponibilidad e involucración, siempre está ahí cuándo la necesites. Además, es una persona que se preocupa de verdad por sus clientes y por darles la mejor solución. Yo he cambiado todos los ahorros y seguros con ella y no sólo he ahorrado si no que tengo mejores coberturas y mis ahorros ahora están empezando a generar intereses.",
-      customerName: "Pavlo Dudnyk Petrenko",
-      customerTitle: "Programador Java & JavaScript | Full Stack Developer | Desarrollador Web Back-end & Front-end | Diseño Gráfico | Fotografía | Videografía",
+      customerName: "Pavlo D.",
+      customerTitle: "Programador Full Stack Developer",
       url: "https://www.linkedin.com/in/pavlo-dudnyk/"
     },
   ];
