@@ -42,7 +42,7 @@ export default () => {
             <Link href="/">Inicio</Link>
             <Link href="/Conoceme">Conoceme</Link>
             <Link href="/Servicios">Servicios</Link>
-            <Link href="#">Blog</Link>
+            <Link href="https://blog.mjgfinanzas.es/">Blog</Link>
             <Link href="/Contacto">Contacto</Link>
           </LinksContainer>
           <SocialLinksContainer>
@@ -58,7 +58,7 @@ export default () => {
           </SocialLinksContainer>
           <CopyrightText>
             <p>Desarrollado por <a href="https://www.linkedin.com/in/pavlo-dudnyk/">Pavlo Dudnyk</a>.</p>
-            <p><a href="/AvisoLegal">Aviso Legal.</a></p>
+            <p><a href="/AvisoLegal">Aviso Legal.</a>&nbsp;&nbsp;<a href="https://blog.mjgfinanzas.es/politica-de-privacidad/">Política de Privacidad.</a></p>
           </CopyrightText>
         </Row>
       </Content>

@@ -1,6 +1,8 @@
 /node_modules
 /build
 /wordpress
+/Testimonios
+/Footer
 README.md
 babel-plugin-macros.config.js
 jsconfig.json
