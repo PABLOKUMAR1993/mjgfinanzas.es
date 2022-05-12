@@ -46,7 +46,7 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 
 export default ({
   subheading = "Mis Servicios",
-  heading = "¿En que puedo Ayudarte?",
+  heading = "¿En qué puedo Ayudarte?",
   description = (
     <>
       <p>

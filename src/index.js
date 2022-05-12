@@ -1,4 +1,8 @@
 /*
+*DESCOMENTAR PARA MOSTAR LA WEB
+*/
+
+
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
@@ -10,7 +14,14 @@ ReactDOM.render(
   <App />,
   document.getElementById("root")
 );
+
+
+
+/*
+*DESCOMENTAR PARA ACTIVAR LA WEB TEMPORAL
 */
+
+/*
 
 import React from "react";
 import ReactDOM from "react-dom";
@@ -38,3 +49,5 @@ function App() {
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
+
+*/

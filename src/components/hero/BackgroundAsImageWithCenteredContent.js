@@ -48,7 +48,7 @@ export default () => {
       <NavLink href="/Servicios">
         Servicios
       </NavLink>
-      <NavLink href="#">
+      <NavLink href="https://blog.mjgfinanzas.es/">
         Blog
       </NavLink>
       <NavLink href="/Contacto">

@@ -109,6 +109,9 @@ import Form from "components/forms/TwoColContactUsWithIllustrationFullForm.js";
 import MainFeatureContact from "components/features/TwoColWithTwoHorizontalFeaturesAndButton.js";
 import Localizacion from "components/cards/Localizacion";
 
+//Aviso Legal
+import AvisoLegal from "components/features/AvisoLegal";
+
 //React
 import { BrowserRouter, Route } from "react-router-dom";
 
@@ -120,9 +123,7 @@ export default function App() {
         <Route exact path="/">
           <Hero />
           <AboutMe />
-          <Satisfaccion />
-          <Services />
-          <MisOtrosYo />
+          <Services /> 
           <Testimonial />
           <GetStarted />
         </Route>
@@ -171,6 +172,10 @@ export default function App() {
           <HeroContacto />
           <Form />
           <Localizacion />
+        </Route>
+        <Route exact path="/AvisoLegal">
+          <HeroContacto />
+          <AvisoLegal />
         </Route>
         <Footer />
       </AnimationRevealPage>

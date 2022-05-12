@@ -58,25 +58,15 @@ export default ({ cards = null, heading = "Contacta Conmigo", subheading = "Mét
    */
 
   const defaultCards = [
-    {
-      title: "Oficina de Mota del Cuervo",
-      description: "Vivero de Empresas en el Pol. Ind. La Serna (Mota del Cuervo).",
-      url: "https://www.google.es/maps/place/Vivero+de+Empresas+de+Mota+del+Cuervo/@39.48694,-2.8809617,17z/data=!3m1!4b1!4m5!3m4!1s0xd6844f35e59f323:0x37a43c55b802db65!8m2!3d39.4869359!4d-2.878773?shorturl=1"
-    },
-    { 
-      title: "Oficina de El Pedernoso",
-      description: "Vivero de Empresas (El Pedernoso).",
-      url: "https://www.google.es/maps/place/16638+El+Pedernoso,+Cuenca/@39.4843989,-2.7468097,17z/data=!3m1!4b1!4m5!3m4!1s0xd68685a6c355a7f:0x2f0b4f5a410bd323!8m2!3d39.483918!4d-2.744386?shorturl=1"
-    },
     { 
       title: "Teléfono / WhatsaApp",
       description: "+34 677 75 82 45.",
-      url: "tel:677758245"
+      url: "tel:0034677758245"
     },
     { 
       title: "Correo Electronico",
-      description: "miriam.jimenez@bancomediolanum.es",
-      url: "mailto:miriam.jimenez@bancomediolanum.es"
+      description: "miriamjjg@hotmail.con",
+      url: "mailto:miriamjjg@hotmail.con"
     },
     { 
       title: "LinkedIn",

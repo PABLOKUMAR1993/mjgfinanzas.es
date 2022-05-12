@@ -49,46 +49,30 @@ const DecoratorBlob = styled(SvgDotPattern)((props) => [
 
 export default ({
   subheading = "",
-  heading = <>¿Porqué ahora en Banco Mediolanum?</>,
+  heading = <>¿Porqué ahora Asesora Financiera?</>,
   description = (
     <>
       <p>
         Después de escribir de forma resumida mi experiencia laboral y personal,
-        ahora quiero hablaros de la profesión que desempeño hoy de la mano de{" "}
-        <b>Banco Mediolanum</b>.
+        ahora quiero hablaros de la profesión que desempeño hoy.
       </p>
       <br />
       <p>
         Estoy aquí en primer lugar porque después de trabajar de muchas cosas me
-        he dado cuenta que{" "}
-        <i>
-          las finanzas y la protección es algo que siempre ha ido ligado a mí
-        </i>
-        .{" "}
-        <b>
-          <i>
-            Siempre digo que para saber elegir y saber lo que nos gusta hay que
-            hacer y probar de todo
-          </i>
-        </b>
-        . Bien, eso hice y después supe que esta era <b>mi vocación</b>.
+        he dado cuenta que las finanzas y la protección es algo que siempre ha
+        ido ligado a mí. Siempre digo que para saber elegir y saber lo que nos
+        gusta hay que hacer y probar de todo. Bien, eso hice y después supe que
+        esta era mi vocación.
       </p>
       <br />
       <p>
-        ¿Por qué? <b>Soy libre</b> y <b>feliz</b>. <b>Jefa de mi vida</b>. Tengo{" "}
-        <b>
-          <i>libertad financiera</i>
-        </b>
-        , decido y planifico de forma inteligente para que todo salga bien. Sin
+        ¿Por qué? Soy libre y feliz. Jefa de mi vida. Tengo libertad financiera,
+        decido y planifico de forma inteligente para que todo salga bien. Sin
         estrategia y sin plan al final estamos a merced de lo que la vida
-        decida. Y{" "}
-        <b>
-          lo mejor aún es que le ofrezco <i>todo este bienestar</i> a mis
-          clientes
-        </b>
-        . Les ayudo a su estrategia, para que a lo largo del ciclo financiero
-        alcancen sus metas <b>con el mínimo esfuerzo</b>, el resto lo hará{" "}
-        <b>la 8ª maravilla del mundo: el interés compuesto</b>.
+        decida. Y lo mejor aún es que le ofrezco todo este bienestar a mis
+        clientes. Les ayudo a su estrategia, para que a lo largo del ciclo
+        financiero alcancen sus metas con el mínimo esfuerzo, el resto lo hará
+        la 8ª maravilla del mundo: el interés compuesto.
       </p>
     </>
   ),
